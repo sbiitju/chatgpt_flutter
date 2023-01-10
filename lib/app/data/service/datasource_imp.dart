@@ -5,6 +5,7 @@ import 'base_data_source.dart';
 import 'datasource.dart';
 
 class DataSourceImp extends BaseDataSource implements DataSource {
+  @override
   Future<ChatModel> getResponse(String input) async {
     var url = Uri.https("api.openai.com", "/v1/completions");
     final response = await dioClient.post(url.toString(),
@@ -13,7 +14,6 @@ class DataSourceImp extends BaseDataSource implements DataSource {
           "prompt": input,
           'max_tokens': 1000,
         }));
-    print(response.data);
     return ChatModel.fromJson(
         (response.data["choices"] as List<dynamic>).first);
   }

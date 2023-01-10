@@ -95,7 +95,7 @@ class HomeView extends GetView<HomeController> {
                                 : null;
                             controller.isLoading.value = true;
                             controller.chatList.add(ChatModel(
-                                meesage: _textEditingController.text.toString(),
+                                message: _textEditingController.text.toString(),
                                 userType: UserType.USER));
                             controller
                                 .callData(

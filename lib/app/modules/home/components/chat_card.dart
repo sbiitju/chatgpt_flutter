@@ -33,7 +33,7 @@ class ChatCard extends StatelessWidget {
                     borderRadius: BorderRadius.all(Radius.circular(20))),
                 child: Padding(
                   padding: const EdgeInsets.all(16.0),
-                  child: Text(chatModel?.meesage?.trim() ?? ""),
+                  child: Text(chatModel?.message?.trim() ?? ""),
                 )),
           ),
         ],
@@ -55,7 +55,7 @@ class ChatCard extends StatelessWidget {
                     borderRadius: BorderRadius.all(Radius.circular(20))),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Text(chatModel?.meesage ?? ""),
+                  child: Text(chatModel.message ?? ""),
                 )),
           ),
           const Padding(

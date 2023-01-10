@@ -112,6 +112,5 @@ abstract class AppValues {
   static const int value_30 = 30;
   static const int status_code_201 = 201;
 
-  static const String AUTH_TOKEN =
-      "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";
+  static const String AUTH_TOKEN = "Your_ChatGPT_Token";
 }

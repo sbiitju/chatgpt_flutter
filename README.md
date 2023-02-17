@@ -1,7 +1,6 @@
 # chatgpt_flutter
 
-Food App is a simple food delivery app developed by using Flutter SDK for browsing food catalogs and placing orders to restaurants. This app was designed by following MVVM architecture. For communicating with the backend using GraphQL here we use GraphQL flutter library.
-
+ChatGPT mobile version, which can interact with ChatGPT data models that can understand and generate natural language.it is a demo application based on GPT-3 model.User can make request and get response using it.The app is building This app was designed by following MVVM architecture. For communicating with the backend using DIO and managing state I used GetX.
 
 [Try Sample APK](https://drive.google.com/file/d/1B9FAuS-0nNCnJUYlx8CKZCnNCYF1tNKB/view?usp=sharing)
 

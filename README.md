@@ -8,8 +8,8 @@ Home Screen | Home Screen with Conversations
 -------------|-----------------
 ![alt text](images/1.jpeg "Home Screeen") | ![alt text](images/2.jpeg "Conversations")
 
-Conversations
-!-----------------
+
+Conversations!-----------------
 ![alt text](images/3.jpeg "Conversations")
 
 ### Features:
